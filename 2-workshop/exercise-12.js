@@ -15,6 +15,24 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+//   for (i = 0; i <= 200; i = i + 1)  
+// {
+//     testPrime = 0;
+//     for (j = 1; j <=200; j = j + 1)
+//     {
+//         let k = i % j;
+//         if (k === 0)
+//         {
+//         testPrime = testPrime + 1;
+//         }
+//     }
+//     if (testPrime === 2)
+//     {
+//         console.log(i);
+//     }
+// }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -24,6 +42,7 @@ function exercise12() {
   //
   //
 }
+exercise12();
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-12
